@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  /* deep stream / water palette */
+  --color-stream-950: #071b1f;
+  --color-stream-900: #0c272c;
+  --color-stream-800: #123640;
+  --color-stream-700: #1a4a55;
+  --color-stream-600: #24616e;
+  --color-stream-500: #2f7c8a;
+  --color-stream-400: #4fa0ac;
+  --color-stream-300: #86c2c8;
+  --color-stream-200: #b0d9dc;
+  --color-stream-100: #dcf0ee;
+  --color-stream-50: #f3faf9;
+
+  /* warm clay accent, evokes sagebrush/basalt of Clark County */
+  --color-clay-600: #b45a34;
+  --color-clay-500: #d97a4a;
+  --color-clay-400: #e89a6c;
+  --color-clay-100: #fbe6d8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-stream-950);
+  color: var(--color-stream-950);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-clay-400);
+  color: var(--color-stream-950);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* leaflet marker polish */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--color-stream-100);
+}
+.site-marker {
+  border-radius: 9999px;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+}
