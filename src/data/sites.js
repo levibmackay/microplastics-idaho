@@ -65,4 +65,4 @@ export const bottleLog = [
   { name: 'Control', mL: 1000, count: 3, pinkFibers: 0 },
 ]
 
-export const team = ['Ryan Sargeant', 'Lydia Kessie', 'Cheyenne Gwynn', 'Kiersten Jensen']
+export const team = ['Lydia Kessie', 'Cheyenne Gwynn', 'Kiersten Jensen', 'Ryan Sargeant']
