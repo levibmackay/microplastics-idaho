@@ -28,3 +28,5 @@ Pushes to `main` deploy automatically to GitHub Pages via
 Sample site coordinates and particle counts are from the team's own field
 data. Landscape photography is public domain, courtesy of the U.S. Forest
 Service and Bureau of Land Management.
+
+_Last updated: 2026-07-16_
