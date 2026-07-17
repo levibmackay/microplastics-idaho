@@ -8,7 +8,7 @@ Built with React, Tailwind CSS v4, Framer Motion, Leaflet, and Recharts.
 
 ## Team
 
-Ryan Sargeant, Lydia Kessie, Cheyenne Gwynn, Kiersten Jensen
+Lydia Kessie, Cheyenne Gwynn, Kiersten Jensen, Ryan Sargeant
 
 ## Development
 
