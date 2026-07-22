@@ -62,7 +62,7 @@ Chem 490R Internship · BYU–Idaho, Rexburg · Spring–Summer 2026
 
 Levi B Mackay ([@levibmackay](https://github.com/levibmackay))
 
-_Last updated: 2026-07-20_
+_Last updated: July 22, 2026_
 
 _Last reviewed: 2026-07-20 19:33 MDT_
 
