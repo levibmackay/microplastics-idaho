@@ -2,7 +2,11 @@ import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet'
 import { motion } from 'framer-motion'
 import { sites, severity, severityColor, severityLabel, CONTROL } from '../data/sites'
 
-const legendOrder = ['good', 'warning', 'serious', 'critical']
+// Derived from severityLabel rather than hardcoded, so the legend cannot drift
+// out of sync with the palette again. A hardcoded list here previously used a
+// different set of keys than sites.js, so every swatch resolved to undefined
+// and the legend rendered as blank circles with no text.
+const legendOrder = Object.keys(severityLabel)
 
 export default function StreamMap() {
   const center = [44.15, -111.98]
