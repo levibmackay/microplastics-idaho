@@ -11,7 +11,7 @@ the team's own field data.
 - **Interactive site map** — 18 GPS-tagged sample sites across Clark and Madison counties, plotted
   on a Leaflet map and color-coded by microplastic particles found per liter, with a control-value
   reference.
-- **Results view** — a Recharts bar chart and a sortable table (toggle between the two) showing
+- **Results view** — a Recharts bar chart and a table (toggle between the two) showing
   particles/L per site, plus summary stats (sites sampled, average particles/L, sites above
   control).
 - **Methods timeline** — a scroll-driven, five-step walkthrough of the lab procedure: collect,
